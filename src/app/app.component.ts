@@ -2,13 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet />
-  `,
-  styles: []
+  templateUrl: 'app.component.html'
+  
 })
 export class AppComponent {
-  title = 'frontend';
+  
 }
